@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Shop</title>
+    <link rel="stylesheet" href="cart.css"> <!-- Linking CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> <!-- FontAwesome for Icons -->
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <img src="COOKIELOGO.webp" alt="Company Logo">
+        </a>
+        <a href="index.html">Home</a>
+        <a href="cart.html">Cart <i class="fas fa-shopping-cart"></i></a>
+        
+        <!-- Branch Dropdown -->
+        <div class="dropdown">
+            <button class="dropbtn">Branches ⬇</button>
+            <div class="dropdown-content">
+                <a href="branch1.html">Downtown</a>
+                <a href="branch2.html">Uptown</a>
+                <a href="branch3.html">Suburb</a>
+            </div>
+        </div>
+        
+        <a href="http://127.0.0.1:3000/login.html" class="login"><i class="fas fa-user"></i> Login</a>
+    </nav>
+
+    <!-- Cookie Menu -->
+    <div class="menu">
+        <h2>Our Delicious Cookies</h2>
+
+        <div class="menu-item">
+            <img src="chocochip.webp" alt="Classic Choco Chip">
+            <div class="cookie-info">
+                <h3>Classic Choco Chip - $2.99</h3>
+                <p>Crispy, chewy, rich in chocolate chips.</p>
+            </div>
+            <button class="add-to-cart" onclick="addToCart('Classic Choco Chip', 2.99, 'chocochip.webp')">Add to Cart</button>
+        </div>
+
+        <div class="menu-item">
+            <img src="doublefudge.webp" alt="Double Fudge Brownie">
+            <div class="cookie-info">
+                <h3>Double Fudge Brownie - $3.49</h3>
+                <p>Intensely chocolatey, soft, and gooey.</p>
+            </div>
+            <button class="add-to-cart" onclick="addToCart('Double Fudge Brownie', 3.49, 'doublefudge.webp')">Add to Cart</button>
+        </div>
+
+        <div class="menu-item">
+            <img src="oatmeal.webp" alt="Oatmeal Raisin">
+            <div class="cookie-info">
+                <h3>Oatmeal Raisin - $2.79</h3>
+                <p>Warm cinnamon, hearty oats, and raisins.</p>
+            </div>
+            <button class="add-to-cart" onclick="addToCart('Oatmeal Raisin', 2.79, 'oatmeal.webp')">Add to Cart</button>
+        </div>
+
+        <div class="menu-item">
+            <img src="peanutbutter.webp" alt="Peanut Butter Bliss">
+            <div class="cookie-info">
+                <h3>Peanut Butter Bliss - $3.19</h3>
+                <p>Buttery, nutty, and melt-in-your-mouth.</p>
+            </div>
+            <button class="add-to-cart" onclick="addToCart('Peanut Butter Bliss', 3.19, 'peanutbutter.webp')">Add to Cart</button>
+        </div>
+    </div>
+
+    <!-- Floating Cart Popup -->
+    <div id="cart-popup" class="cart-popup">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <button class="close-btn" onclick="toggleCart()">✖</button>
+        </div>
+        
+        <div class="cart-items"></div>
+
+        <div class="cart-footer">
+            <h3>Total: $<span id="cart-total">0.00</span></h3>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+
+    <!-- Floating Cart Button -->
+    <button class="cart-icon" onclick="toggleCart()">
+        🛒 <span id="cart-count">0</span>
+    </button>
+
+    <!-- Link JavaScript File -->
+    <script src="cart.js"></script>
+
+</body>
+</html>
