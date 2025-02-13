@@ -1,0 +1,9 @@
+Fonts used in this design:
+
+Font: Mitr
+Author: Cadson Demak
+Url: https://fonts.google.com/specimen/Mitr
+
+Font: Spicy Rice
+Author: Astigmatic
+Url: https://fonts.google.com/specimen/Spicy+Rice

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -126,3 +127,133 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Now - Pramodh's Cookies</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS File -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8e0b6;
+        }
+
+        /* Navbar Styling */
+        .navbar {
+            background-color: #8B4513;
+        }
+        .navbar a {
+            color: white !important;
+            font-weight: bold;
+        }
+        .navbar-nav {
+            display: flex;
+            align-items: center;
+        }
+        .navbar-nav .nav-item {
+            margin-right: 15px;
+        }
+        .container h2{
+            color:#8B4513;
+        }
+
+        /* Branch Cards */
+        .branch-container {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px;
+            gap: 20px;
+             ;
+        }
+
+        .branch-card {
+            flex: 1;
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .branch-card:hover {
+            transform: scale(1.05);
+        }
+
+        .branch-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .branch-card h3 {
+            margin-top: 15px;
+            color: #8B4513;
+        }
+        .navbar-brand img {
+            height: 50px; /* Adjust size */
+            margin-right: 15px;
+            width:auto;
+            display:inline-block;
+        }
+        .login i{
+            color: #F5CCA0;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="http://127.0.0.1:3000/dashboard.html"><img src="./COOKIELOGO.webp" alt=""></a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:3000/dashboard.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="http://127.0.0.1:3000/menu.html">Order Now</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">🛒 Cart</a></li>
+                </ul>
+            </div>
+            <a class="nav-link text-white" href="http://127.0.0.1:3000/login.html">Login <i class="fas fa-user"></i></a>
+        </div>
+    </nav>
+    
+    <!-- Branch Selection -->
+    <div class="container">
+        <h2 class="text-center mt-4">Choose Your Branch</h2>
+        <div class="branch-container">
+            <div class="branch-card" onclick="toggleMenu('MYLAPORE')">
+                <a href="http://127.0.0.1:3000/menu.html"><img src="./RESTRAUNT LOGO.webp" alt="Branch 1"></a>
+                <h3>MYLAPORE</h3>
+            </div>
+            <div class="branch-card" onclick="toggleMenu('ALWARPET')">
+                <a href="http://127.0.0.1:3000/order2.html"><img src="./CAFE.webp" alt="Branch 2"></a>
+                <h3>ALWARPET</h3>
+            </div>
+            <div class="branch-card" onclick="toggleMenu('MANDAVELI')">
+               <a href="http://127.0.0.1:3000/order3.html"> <img src="./OURDOOR.webp" alt="Branch 3"></a>
+                <h3>MANDAVELI</h3>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleMenu(branchId) {
+            alert("Menu for " + branchId + " will appear here!");
+            // Implement logic to expand menu below the selected branch
+        }
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+>>>>>>> 39567ac (Initial commit)

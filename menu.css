@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Overall Page Styling */
 body {
     background-color: #F5CCA0; /* Cream Beige */
@@ -140,3 +141,147 @@ body {
 }
 
 
+=======
+/* Overall Page Styling */
+body {
+    background-color: #F5CCA0; /* Cream Beige */
+    font-family: 'Poppins', sans-serif;
+    color: #6B240C; /* Dark Brown for Text */
+}
+
+
+
+
+/* Menu Container */
+.menu {
+    max-width: 750px;
+    margin: auto;
+    padding: 20px;
+    background-color: #E48F45; /* Light Brown */
+    border-radius: 10px;
+}
+
+/* Each Cookie Item */
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #994D1C; /* Medium Brown */
+    
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Cookie Image */
+.cookie-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+/* Cookie Text */
+.cookie-info {
+    flex-grow: 1;
+}
+
+.cookie-name {
+    font-size: 18px;
+    font-weight: bold;
+    color:white; /* Light Beige */
+}
+
+.cookie-desc {
+    font-size: 14px;
+    color: white; /* Light Beige */
+    font-weight: bold;}
+
+/* Add to Cart Button */
+.add-to-cart {
+    background: #6B240C; /* Dark Brown */
+    color: white; /* Light Beige */
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+    font-weight:bold;
+}
+
+.add-to-cart:hover {
+    background: #994D1C; /* Medium Brown */
+}
+/* Navbar */
+.navbar {
+    background-color: #6B240C; /* Dark Brown */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+/* Navbar Logo */
+.logo img {
+    height: 50px;
+    border-radius: 5px;
+}
+
+/* Navbar Links */
+.navbar a {
+    color: #F5CCA0; /* Light Beige */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 15px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #994D1C; /* Medium Brown */
+    color: whitesmoke; /* Light Beige */
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 900;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Dropdown Content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #E48F45; /* Light Brown */
+    min-width: 160px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+/* Dropdown Items */
+.dropdown-content a {
+    color: #6B240C; /* Dark Brown */
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Show Dropdown on Hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Hover Effect */
+.dropdown-content a:hover {
+    background-color: #F5CCA0; /* Cream Beige */
+}
+
+
+>>>>>>> 39567ac (Initial commit)

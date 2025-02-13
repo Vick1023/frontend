@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* General Styling */
 body {
     background-color: #F5CCA0; /* Cream Beige */
@@ -172,3 +173,179 @@ body {
     font-weight: bold;
 }
 
+=======
+/* General Styling */
+body {
+    background-color: #F5CCA0; /* Cream Beige */
+    font-family: 'Poppins', sans-serif;
+    color: #6B240C; /* Dark Brown */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #6B240C; /* Dark Brown */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+.navbar a {
+    color: #F5CCA0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Cookie Menu */
+.menu {
+    max-width: 750px;
+    margin: auto;
+    padding: 20px;
+    background-color: #E48F45;
+    border-radius: 10px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    background-color: #994D1C;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.menu-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+/* Floating Cart */
+.cart-popup {
+    position: fixed;
+    right: 20px;
+    top: 60px;
+    width: 300px;
+    background: #6B240C;
+    color: #F5CCA0;
+    padding: 15px;
+    border-radius: 10px;
+    display: none;
+}
+
+.cart-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-items {
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+.checkout-btn {
+    background: #994D1C;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+/* Navbar Styling */
+.navbar {
+    background-color: #6B240C; /* Dark Brown */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Logo Styling */
+.logo img {
+    height: 50px;
+    border-radius: 5px;
+}
+
+/* Navbar Links */
+.navbar a {
+    color: #F5CCA0; /* Light Beige */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 15px;
+}
+
+/* Order Now Button */
+.order-now {
+    background: #E48F45; /* Light Brown */
+    color: #F5CCA0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.order-now:hover {
+    background: #994D1C; /* Medium Brown */
+}
+
+/* Dropdown Menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background: none;
+    border: none;
+    color: #F5CCA0;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #E48F45;
+    min-width: 150px;
+    right: 0;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #6B240C;
+    font-size: 16px;
+}
+
+.dropdown-content a:hover {
+    background-color: #F5CCA0;
+}
+
+/* Ensure Dropdown Works */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Fix Navbar Layout */
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.login{
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+>>>>>>> 39567ac (Initial commit)

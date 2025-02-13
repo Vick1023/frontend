@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: Arial, sans-serif;
     background-color: #f8e0b6;
@@ -91,4 +92,99 @@ body {
 
 .forgot-password a:hover, .signup-link a:hover {
     text-decoration: underline;
+=======
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8e0b6;
+}
+
+.login-container {
+    display: flex;
+    height: 100vh;
+}
+
+.image-section {
+    flex: 1;
+    background: #8B4513;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+}
+
+.image-section img {
+    max-width: 80%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 2;
+}
+
+.login-form-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 40px;
+}
+
+.login-form {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.login-btn {
+    background-color: #8B4513;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    width: 100%;
+    border: none;
+}
+
+.login-btn:hover {
+    background-color: #a0522d;
+}
+
+.forgot-password, .signup-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.forgot-password a, .signup-link a {
+    color: #8B4513;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.forgot-password a:hover, .signup-link a:hover {
+    text-decoration: underline;
+>>>>>>> 39567ac (Initial commit)
 }
