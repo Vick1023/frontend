@@ -1,0 +1,93 @@
+ /* Navbar Styling */
+ .custom-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #8B4513; /* Set background */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    padding-bottom: 20px;
+}
+
+/* Logo */
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    
+    font-size: small;
+}
+
+.navbar-logo img {
+    height: 40px; /* Adjust logo size */
+    width: 50px;
+    margin-right: 10px;
+}
+
+.navbar-logo span {
+    font-size: 15px;
+    
+    font-weight:bold;
+    color:white; /* Dark green */
+}
+.about-btn{
+    background-color: #f8e0b6; /* Dark Brown */
+    color: #8B4513;
+    padding: 10px 20px;
+    width: 150px;;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 20px;
+
+
+}
+.about-btn:hover{
+    background-color: white;
+}
+
+
+/* Contact Us Button */
+.contact-btn {
+    background-color: #f8e0b6; /* Green Button */
+    display: flex;
+    color: #8B4513;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.contact-btn:hover {
+    background-color:white; /*BROWN */
+}
+.brown-btn {
+background-color: #994D1C; /* Saddle Brown */
+color: white;
+padding: 12px 20px;
+border-radius: 5px;
+font-weight: bold;
+text-decoration: none;
+border: none;
+cursor: pointer;
+transition: 0.3s;
+font-size: x-large;
+
+}
+
+
+.center-container {
+    background-image:url("BACKGROUND.webp"); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the full area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Full viewport height */
+    background-color: #E48F45; /* Light background for visibility */
+}
